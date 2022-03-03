@@ -15,7 +15,10 @@ Python numpy, scipy, rtree
 A depth camera integrated with ros, that publish a pointcloud2 topic.
 
 ## Building node
-Clone the repository in your workspace, then run catkin_make
+Clone the repository in your workspace, then run
+```
+catkin_make
+```
 
 ## Launching the exploration
 - Start the px4 subsystem (either real or using software in the loop simulation)
@@ -43,7 +46,7 @@ rosrun BezierFastExploration gain_regressor.py
    
    
 ## Images
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 100% height = 50% />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Full.png" width = 100% height = 50% />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/simMap_2.jpg" width = 100% height = 50% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 30%  />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Full.png" width = 30% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/simMap_2.jpg" width = 80% />
    
