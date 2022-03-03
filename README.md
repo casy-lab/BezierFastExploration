@@ -14,8 +14,9 @@
    
    
 ## Images
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.pdf" width = 100% height = 50% />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/full.jpg" width = 100% height = 50% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 100% height = 50% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Full.pgn" width = 100% height = 50% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/simMap_2.jpg" width = 100% height = 50% />
    
 ### 1.2 MAVROS and GeographicLib
 Install ROS repositories for mavros:
