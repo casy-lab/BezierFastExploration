@@ -7,8 +7,11 @@ This code has been tested on ROS Melodic and ROS Noetic.
 Install ROS following the online tutorials.
 
 **Dependencies**
+
 Octomap, Eigen
+
 Python numpy, scipy, rtree
+
 A depth camera integrated with ros, that publish a pointcloud2 topic.
 
 ## Building node
@@ -23,7 +26,7 @@ roslaunch BezierFastExploration exploration.launch
 ```
 - Start the gain regressor node
 ```
-rosrun BezierFastExploration
+rosrun BezierFastExploration gain_regressor.py
 ```
 
 ## Authors
