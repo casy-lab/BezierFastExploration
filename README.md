@@ -6,9 +6,25 @@ This code has been tested on ROS Melodic and ROS Noetic.
 
 Install ROS following the online tutorials.
 
-*Dependencies*
+**Dependencies**
+Octomap, Eigen
+Python numpy, scipy, rtree
+A depth camera integrated with ros, that publish a pointcloud2 topic.
 
+## Building node
+Clone the repository in your workspace, then run catkin_make
 
+## Launching the exploration
+- Start the px4 subsystem (either real or using software in the loop simulation)
+- Start the RGB-D camera integration (to obtain the pointcloud)
+- Start the exploration node
+```
+roslaunch
+```
+- Start the gain regressor node
+```
+rosrun
+```
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
@@ -28,13 +44,3 @@ Install ROS following the online tutorials.
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Full.png" width = 100% height = 50% />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/simMap_2.jpg" width = 100% height = 50% />
    
-### 1.2 MAVROS and GeographicLib
-Install ROS repositories for mavros:
-```
-sudo apt-get install ros-*ros_distro*-mavros ros-*ros_distro*-mavros-extras
-```
-Install [GeographicLib](https://geographiclib.sourceforge.io/) dataset by running:
-```
-cd mavros/mavros/scripts
-sudo ./install_geographiclib_datasets.sh
-```
