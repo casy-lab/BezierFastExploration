@@ -17,7 +17,7 @@ A depth camera integrated with ros, that publish a pointcloud2 topic.
 ## Building node
 Clone the repository in your workspace
 ```
-git clone 
+git clone https://github.com/casy-lab/BezierFastExploration.git bezier_exploration
 ```
 then run
 ```
