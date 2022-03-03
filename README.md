@@ -1,10 +1,20 @@
 # Bezier Fast Exploration
+Autonomous exploration of large unknown areas using Bézier curves trajectories.
+
+## Prerequisites
+This code has been tested on ROS Melodic and ROS Noetic.
+
+Install ROS following the online tutorials.
+
+*Dependencies*
+
+
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
     * Email: lorenzo.gentilini6@unibo.it
   * Dario Mengoli - PhD Student
-    * Email: ...@unibo.it
+    * Email: dario.mengoli2@unibo.it
   * Lorenzo Marconi - Full Professor
     * Email: lorenzo.marconi@unibo.it
     
