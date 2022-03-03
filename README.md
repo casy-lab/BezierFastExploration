@@ -19,11 +19,11 @@ Clone the repository in your workspace, then run catkin_make
 - Start the RGB-D camera integration (to obtain the pointcloud)
 - Start the exploration node
 ```
-roslaunch
+roslaunch BezierFastExploration exploration.launch
 ```
 - Start the gain regressor node
 ```
-rosrun
+rosrun BezierFastExploration
 ```
 
 ## Authors
