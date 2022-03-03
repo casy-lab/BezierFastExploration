@@ -15,7 +15,11 @@ Python numpy, scipy, rtree
 A depth camera integrated with ros, that publish a pointcloud2 topic.
 
 ## Building node
-Clone the repository in your workspace, then run
+Clone the repository in your workspace
+```
+git clone 
+```
+then run
 ```
 catkin_make
 ```
@@ -25,11 +29,11 @@ catkin_make
 - Start the RGB-D camera integration (to obtain the pointcloud)
 - Start the exploration node
 ```
-roslaunch BezierFastExploration exploration.launch
+roslaunch bezier_exploration exploration.launch
 ```
 - Start the gain regressor node
 ```
-rosrun BezierFastExploration gain_regressor.py
+rosrun bezier_exploration gain_regressor.py
 ```
 
 ## Authors
