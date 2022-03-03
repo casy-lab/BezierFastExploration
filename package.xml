@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bezier_exploration</name>
+  <version>1.0.0</version>
+  <description>The bezier_exploration package</description>
+
+  <maintainer email="lorenzo.gentilini6@unibo.it">Lorenzo Gentilini</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>octomap</build_depend>
+  <build_depend>octomap_ros</build_depend>
+
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>octomap</build_export_depend>
+  <build_export_depend>octomap_ros</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>octomap</exec_depend>
+  <exec_depend>octomap_ros</exec_depend>
+
+  <export>
+  </export>
+</package>
