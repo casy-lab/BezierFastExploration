@@ -1,5 +1,7 @@
 # Bezier Fast Exploration
-![Watch the video](https://youtu.be/4respaTDGsg)
+<p float="left" align="center">
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/ExplorationGIF.gif" width = 91% float="left" />
+</p>
 
 ## Algorithm Features Overview
 <p float="left" align="center">
