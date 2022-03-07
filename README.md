@@ -6,10 +6,12 @@
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration300s.png" width = 30% float="left" />
 </p>
 
-BezierFastExploration is a flexible framework for next-best-view exploration design.
-In particular, this repository contains all procedures required by an
-
-Autonomous exploration of large unknown areas using Bézier curves trajectories.
+BezierFastExploration is a flexible framework for three-dimensional next-best-view Gaussian process aided exploration design.
+The repository contains all the necessary code to build your own exploration algorithm with your own custom information gain function.
+The implemented algorithm iteratively builds and maintains a Rapidly-Exploring Random Tree (RRT) by randomly sampling feasible trajectories.
+The information gain of each trajectory is evaluated via sparse ray-casting and Gaussian process regression.
+The algorithm employs a Bézier curve parameterisation to plan feasible collision-free high informative trajectories through the exploring unknown environment.
+For more information please see our paper.
 
 <p float="left" align="center">
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/mappedVolume.png" width = 30% float="left" />
@@ -72,4 +74,8 @@ rosrun bezier_exploration gain_regressor.py
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/20s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/57s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 30% float="left" />
+</p>
+
+<p float="left" align="center">
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/testScenario_h.jpg" width = 30% float="left" />
 </p>
