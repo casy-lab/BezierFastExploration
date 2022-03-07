@@ -1,14 +1,19 @@
 # Bezier Fast Exploration
 <p float="left" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 40% float="left" />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration200s.png" width = 40% float="left" />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration300s.png" width = 40% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration200s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration300s.png" width = 30% float="left" />
 </p>
 
 BezierFastExploration is a flexible framework for next-best-view exploration design.
 In particular, this repository contains all procedures required by an
 
 Autonomous exploration of large unknown areas using Bézier curves trajectories.
+
+<p float="left" align="center">
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/mappedVolume.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/traveledDistance.png" width = 30% float="left" />
+</p>
 
 ## Prerequisites
 This code has been tested on ROS Melodic and ROS Noetic.
@@ -60,9 +65,7 @@ rosrun bezier_exploration gain_regressor.py
    
 ## Images
 <p float="left" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 40% float="left" />
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Full.png" width = 40% float="left" />
-</p>
-<p clear="both" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/simMap_2.jpg" width = 80% />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/10s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/57s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 30% float="left" />
 </p>
