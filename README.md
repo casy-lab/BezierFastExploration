@@ -1,4 +1,7 @@
 # Bezier Fast Exploration
+<p float="left" align="center">
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Test.gif" width = 30% float="left" />
+</p>
 ## Algorithm Features Overview
 <p float="left" align="center">
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 30% float="left" />
@@ -22,7 +25,7 @@ For more information please see our paper.
 ## Paper and Video
 If you find this package useful for your research, please consider citing our paper:
 * L. Gentilini, D. Mengoli, and L. Marconi. **Direct Bézier-Based Trajectory Planner for Improved Local Exploration of Unknown Environments**. 
-  arXiv:2203.00968, 2022. ([Paper](https://arxiv.org/pdf/2203.00968.pdf))
+  arXiv:2203.00968, 2022. ([Paper](https://arxiv.org/pdf/2203.00968.pdf), [Video](https://youtu.be/4respaTDGsg))
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
