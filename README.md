@@ -7,6 +7,7 @@
 </p>
 
 BezierFastExploration is a flexible framework for three-dimensional next-best-view Gaussian process aided exploration design.
+
 This repository contains all the necessary code to build your own exploration algorithm with your own custom information gain function.
 The implemented algorithm iteratively builds and maintains a Rapidly-Exploring Random Tree (RRT) by randomly sampling feasible trajectories.
 The information gain of each trajectory is evaluated via sparse ray-casting and Gaussian process regression.
@@ -21,7 +22,7 @@ For more information please see our paper.
 # Credits
 ## Paper and Video
 If you find this package useful for your research, please consider citing our paper:
-* L.Gentilini, D. Mengoli, and L. Marconi. **Direct Bézier-Based Trajectory Planner for Improved Local Exploration of Unknown Environments**. 
+* L. Gentilini, D. Mengoli, and L. Marconi. **Direct Bézier-Based Trajectory Planner for Improved Local Exploration of Unknown Environments**. 
   arXiv:2203.00968, 2022. ([Paper](https://arxiv.org/pdf/2203.00968.pdf))
 
 ## Authors
@@ -32,9 +33,10 @@ If you find this package useful for your research, please consider citing our pa
   * Lorenzo Marconi - Full Professor
     * Email: lorenzo.marconi@unibo.it
 
-# Setup
+# Setup the Package
 ## Prerequisites and Dependencies
 This code has been tested on ROS Melodic and ROS Noetic.
+
 In order to build and run this package, please follow the ROS instal online tutorial ([ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu))
 
 Install Octomap and Eigen:
