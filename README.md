@@ -20,6 +20,8 @@ For more information please see our paper.
 
 # Credits
 ## Paper and Video
+If you find this package useful for your research, please consider citing our paper:
+* 
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
@@ -77,5 +79,5 @@ rosrun bezier_exploration gain_regressor.py
 </p>
 
 <p float="left" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/testScenario_h.jpg" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/testScenario_h.jpg" width = 50% float="left" />
 </p>
