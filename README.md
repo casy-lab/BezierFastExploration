@@ -1,5 +1,5 @@
 # Bezier Fast Exploration
-[![Watch the video](https://youtu.be/4respaTDGsg/maxresdefault.jpg)](https://youtu.be/4respaTDGsg)
+![Watch the video](https://youtu.be/4respaTDGsg)
 
 ## Algorithm Features Overview
 <p float="left" align="center">
