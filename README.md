@@ -65,7 +65,7 @@ rosrun bezier_exploration gain_regressor.py
    
 ## Images
 <p float="left" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/10s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/20s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/57s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/167s.png" width = 30% float="left" />
 </p>
