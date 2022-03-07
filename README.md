@@ -1,7 +1,8 @@
 # Bezier Fast Exploration
 <p float="left" align="center">
-   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Test.gif" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Test.gif" width = 91% float="left" />
 </p>
+
 ## Algorithm Features Overview
 <p float="left" align="center">
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 30% float="left" />
