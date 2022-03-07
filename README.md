@@ -7,7 +7,7 @@
 </p>
 
 BezierFastExploration is a flexible framework for three-dimensional next-best-view Gaussian process aided exploration design.
-The repository contains all the necessary code to build your own exploration algorithm with your own custom information gain function.
+This repository contains all the necessary code to build your own exploration algorithm with your own custom information gain function.
 The implemented algorithm iteratively builds and maintains a Rapidly-Exploring Random Tree (RRT) by randomly sampling feasible trajectories.
 The information gain of each trajectory is evaluated via sparse ray-casting and Gaussian process regression.
 The algorithm employs a Bézier curve parameterisation to plan feasible collision-free high informative trajectories through the exploring unknown environment.
@@ -21,7 +21,8 @@ For more information please see our paper.
 # Credits
 ## Paper and Video
 If you find this package useful for your research, please consider citing our paper:
-* 
+* L.Gentilini, D. Mengoli, and L. Marconi. **Direct Bézier-Based Trajectory Planner for Improved Local Exploration of Unknown Environments**. 
+  arXiv:2203.00968, 2022. ([Paper](https://arxiv.org/pdf/2203.00968.pdf))
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
@@ -30,45 +31,38 @@ If you find this package useful for your research, please consider citing our pa
     * Email: dario.mengoli2@unibo.it
   * Lorenzo Marconi - Full Professor
     * Email: lorenzo.marconi@unibo.it
-    
-## References
-   For the details of the work, please refer to the papers:
-   * Permament Link form arXiv
 
 # Setup
 ## Prerequisites and Dependencies
 This code has been tested on ROS Melodic and ROS Noetic.
+In order to build and run this package, please follow the ROS instal online tutorial ([ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu))
 
-Install ROS following the online tutorials.
-
-**Dependencies**
-
-Octomap, Eigen
-
-Python numpy, scipy, rtree
-
-A depth camera integrated with ros, that publish a pointcloud2 topic.
+Install Octomap and Eigen:
+```
+sudo apt-get install ros-$ROS_DISTRO-octomap ros-$ROS_DISTRO-octomap-msgs libeigen3-dev
+```
+Install numpy, scipy, and rtree:
+```
+pip3 install numpy scipy rtree
+```
 
 ## Building the Code
-Clone the repository in your workspace
+Clone the repository in your workspace:
 ```
 git clone https://github.com/casy-lab/BezierFastExploration.git bezier_exploration
 ```
-then run
+Then run the following commands:
 ```
+cd bezier_exploration
 catkin_make
 ```
 
 ## Run the Exploration
-- Start the px4 subsystem (either real or using software in the loop simulation)
+- Start the PX4 subsystem (either real or using software in the loop simulation)
 - Start the RGB-D camera integration (to obtain the pointcloud)
-- Start the exploration node
+- Start the exploration node:
 ```
 roslaunch bezier_exploration exploration.launch
-```
-- Start the gain regressor node
-```
-rosrun bezier_exploration gain_regressor.py
 ```
    
 ## Real-World Tests

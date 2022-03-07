@@ -45,7 +45,7 @@
     <param name="map/z_max" value="2.5"/>
     <param name="map/z_min" value="0.5"/>
   </node>
-<!--
+
   <node pkg="bezier_exploration" type="gain_regressor.py" name="gain_regressor" output="screen" clear_params="true">
     <param name="gp/l_x" value="2.0"/>
     <param name="gp/l_y" value="2.0"/>
@@ -54,7 +54,6 @@
     <param name="gain/insertion_range" value="1.0"/>
     <param name="gain/gp_evaluation_range" value="5.0"/>
   </node>
-  -->
   
   <node pkg="bezier_exploration" type="map_evaluator" name="map_evaluator" output="screen" clear_params="true">
   </node>
