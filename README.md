@@ -1,4 +1,13 @@
 # Bezier Fast Exploration
+<p float="left" align="center">
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration200s.png" width = 30% float="left" />
+   <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration300s.png" width = 30% float="left" />
+</p>
+
+BezierFastExploration is a flexible framework for next-best-view exploration design.
+In particular, this repository contains all procedures required by an
+
 Autonomous exploration of large unknown areas using Bézier curves trajectories.
 
 ## Prerequisites
