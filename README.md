@@ -1,4 +1,5 @@
 # Bezier Fast Exploration
+## Algorithm Features Overview
 <p float="left" align="center">
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration100s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/Exploration200s.png" width = 30% float="left" />
@@ -15,40 +16,8 @@ Autonomous exploration of large unknown areas using Bézier curves trajectories.
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/traveledDistance.png" width = 30% float="left" />
 </p>
 
-## Prerequisites
-This code has been tested on ROS Melodic and ROS Noetic.
-
-Install ROS following the online tutorials.
-
-**Dependencies**
-
-Octomap, Eigen
-
-Python numpy, scipy, rtree
-
-A depth camera integrated with ros, that publish a pointcloud2 topic.
-
-## Building node
-Clone the repository in your workspace
-```
-git clone https://github.com/casy-lab/BezierFastExploration.git bezier_exploration
-```
-then run
-```
-catkin_make
-```
-
-## Launching the exploration
-- Start the px4 subsystem (either real or using software in the loop simulation)
-- Start the RGB-D camera integration (to obtain the pointcloud)
-- Start the exploration node
-```
-roslaunch bezier_exploration exploration.launch
-```
-- Start the gain regressor node
-```
-rosrun bezier_exploration gain_regressor.py
-```
+# Credits
+## Paper and Video
 
 ## Authors
   * Lorenzo Gentilini - PhD Student
@@ -61,9 +30,44 @@ rosrun bezier_exploration gain_regressor.py
 ## References
    For the details of the work, please refer to the papers:
    * Permament Link form arXiv
+
+# Setup
+## Prerequisites and Dependencies
+This code has been tested on ROS Melodic and ROS Noetic.
+
+Install ROS following the online tutorials.
+
+**Dependencies**
+
+Octomap, Eigen
+
+Python numpy, scipy, rtree
+
+A depth camera integrated with ros, that publish a pointcloud2 topic.
+
+## Building the Code
+Clone the repository in your workspace
+```
+git clone https://github.com/casy-lab/BezierFastExploration.git bezier_exploration
+```
+then run
+```
+catkin_make
+```
+
+## Run the Exploration
+- Start the px4 subsystem (either real or using software in the loop simulation)
+- Start the RGB-D camera integration (to obtain the pointcloud)
+- Start the exploration node
+```
+roslaunch bezier_exploration exploration.launch
+```
+- Start the gain regressor node
+```
+rosrun bezier_exploration gain_regressor.py
+```
    
-   
-## Images
+## Real-World Tests
 <p float="left" align="center">
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/20s.png" width = 30% float="left" />
    <img src="https://github.com/casy-lab/BezierFastExploration/blob/master/support_files/57s.png" width = 30% float="left" />
